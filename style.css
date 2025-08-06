@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Exo 2", sans-serif;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 999;
+}
+.navlogo a {
+  text-decoration: none;
+  color: black;
+}
+
+.listitems {
+  display: flex;
+  list-style-type: none;
+  /* justify-content: space-between; */
+  gap: 40px;
+}
+.listitems a {
+  text-decoration: none;
+  color: black;
+}
+
+.bannerimg {
+  object-fit: cover;
+  object-position: right;
+  width: 100%;
+  position: relative;
+}
+.bannerimg img {
+  width: 100%;
+}
+.bannertext {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  color: white;
+}
+.bannerbr {
+  padding: 10px;
+  background-color: rgba(1, 0, 0, 1);
+  font-weight: bold;
+}
+.projects {
+  margin: 40px 20px;
+  font-family: "Exo 2", sans-serif;
+}
+.projects h1 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.cardcontainer {
+  color: white;
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card1 {
+  position: relative;
+}
+.cardtext {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: normal;
+  font-size: 14px;
+  background-color: black;
+  padding: 6px;
+  z-index: 5;
+}
+/* .about {
+  margin: 20px 40px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.about1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+}
+.btnabout {
+  width: 200px;
+  height: 40px;
+}
+.about1 p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.contact {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+.about {
+  margin: 40px 20px;
+  font-family: "Exo 2", sans-serif;
+}
+.about h1 {
+  font-weight: bold;
+  font-size: 22px;
+}
+.about p {
+  margin: 40px 0;
+}
+.aboutus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about1 {
+  width: 280px;
+}
+.about1 img {
+  width: 100%;
+}
+.about1 h2 {
+  margin: 10px 0 0 0;
+  font-weight: normal;
+}
+.about1 h4 {
+  margin: 20px 0;
+  font-weight: normal;
+  color: gray;
+}
+.about1 p {
+  margin: 0;
+}
+.about1 .btnabout {
+  width: 100%;
+  margin: 20px 0 0 0;
+  padding: 8px;
+  border: none;
+}
+
+.btnabout:hover {
+  background-color: rgb(146, 193, 146);
+  cursor: pointer;
+}
+.contact {
+  margin: 40px 20px;
+  font-family: "Exo 2", sans-serif;
+}
+.contact h1 {
+  font-weight: bold;
+  font-size: 22px;
+}
+.contact p {
+  margin: 40px 0 20px 0;
+}
+/* .formelements form {
+  width: 100%;
+} */
+.btncontact {
+  padding: 10px;
+  width: 150px;
+  background-color: black;
+  color: white;
+}
+.btncontact:hover {
+  background-color: rgb(115, 111, 111);
+  cursor: pointer;
+  color: black;
+}
+.btncontact {
+  margin: 20px 0 0 0;
+  padding: 8px;
+  border: none;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact_form input {
+  padding: 10px;
+}
+.bgimg {
+  margin: 40px 20px 6px 20px;
+}
+.footer {
+  background-color: black;
+  padding: 30px;
+}
+.footer h4 {
+  color: white;
+  text-align: center;
+}
